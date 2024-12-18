@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: url('https://s2-g1.glbimg.com/w3PD8jcmiMDH-NMPt9R_HtA4tqc=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/r/e/obyJ32TxKb2YghNB2mfA/apa-certo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px); 
+}
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(251, 251, 251, 0.757); /* como eu diminiui a opcadidade do fundo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.login-container {
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.806); 
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.login-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.login-form button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.login-form button:hover {
+    background-color: #f0009c;
+}
+
+
+.google-login {
+    width: 90%;
+    padding: 10px;
+    background-color: #DB4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+
+.google-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.google-login:hover {
+    background-color: #5402fa;
+}
+
+
+.image-container {
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
